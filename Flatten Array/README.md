@@ -1,0 +1,1 @@
+## Question: Given a deeply nested array, create a function on the array, namely flatten, that when invoked retrun a flat version of the original array. Function should be defined in a way that it can be invoked on existing and future array.
