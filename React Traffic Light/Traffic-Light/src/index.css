@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.traffic-light-container {
+  border: 1px solid black;
+  height: 350px;
+  width: 140px;
+  background-color: #000000ad;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.3;
+  transition: all 0.3s linear;
+}
+
+.red.active {
+  background-color: red;
+  opacity: 1;
+}
+.yellow.active {
+  background-color: yellow;
+  opacity: 1;
+}
+.green.active {
+  background-color: green;
+  opacity: 1;
+}
